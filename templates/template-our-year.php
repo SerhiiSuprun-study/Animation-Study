@@ -19,26 +19,7 @@ get_header('custom'); ?>
         <?php endif; ?>
 
         <section class="test-git">
-            <p>TEST</p>
-            <p>TEST</p>
-            <p>TEST</p>
-            <p>TEST</p>
-            <p>TEST</p>
-            <p>TEST</p>
-            <p>TEST</p>
-            <p>TEST</p>
-            <p>TEST</p>
-            <p>TEST</p>
-            <p>TEST</p>
-            <p>TEST</p>
-            <p>TEST</p>
-            <p>TEST</p>
-            <p>TEST</p>
-            <p>TEST</p>
-            <p>TEST</p>
-            <p>TEST</p>
-            <p>TEST</p>
-            <p>TEST</p>
+
         </section>
         <?php $about_text = get_field('about_text');
         $about_people = get_field('about_people');
