@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="afe7ed23-a5f5-47be-a1c4-0d67e3049fb1" name="Suprun">
+        <fileTransfer rootFolder="/var/www/html/suprun/river/wp-content/themes/Foundation" accessType="SFTP" host="64.91.224.47" port="25566" sshConfigId="e2715134-3044-4c8e-b872-02f36e2d3ee4" sshConfig="erup0@64.91.224.47:25566 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

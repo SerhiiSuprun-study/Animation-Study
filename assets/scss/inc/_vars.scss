@@ -1,0 +1,62 @@
+// Project variables
+
+$red: #E34831;
+
+$text-color: #111111;
+
+$main-color: $red;
+$sub-color: $main-color;
+
+$font: 'Open Sans', sans-serif;
+$sub-font: $font;
+$fa: 'Font Awesome 6 Free';
+$fab: 'Font Awesome 5 Brands';
+
+// Font Awesome Vars
+$fa-font-path: "../fonts";
+$fa-font-display: swap;
+
+
+// Project mixins
+
+%css-clip {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	word-wrap: normal !important;
+	clip-path: inset(50%);
+}
+
+
+// Custom fonts
+// Use https://transfonter.org/ service with "Fix vertical metrics" setting
+// to get correct converted web fonts. Use woff2 format. NOT ttf or otf!
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Italic.woff2') format('woff2');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
